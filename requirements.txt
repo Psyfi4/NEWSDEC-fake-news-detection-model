@@ -1,0 +1,30 @@
+# =============================================================================
+# requirements.txt — Fake News Detection System
+# =============================================================================
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Then download NLTK data (done automatically on first run, or manually):
+#   python -c "import nltk; nltk.download('all')"
+# =============================================================================
+
+# ── Web framework ──────────────────────────────────────────────
+flask>=2.3.0
+
+# ── Machine learning ───────────────────────────────────────────
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# ── Data processing ────────────────────────────────────────────
+pandas>=2.0.0
+
+# ── NLP ────────────────────────────────────────────────────────
+nltk>=3.8.0
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Utilities ──────────────────────────────────────────────────
+# (kaggle is optional — only needed to download the WELFake dataset)
+# kaggle>=1.5.16
